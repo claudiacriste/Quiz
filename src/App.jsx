@@ -43,7 +43,7 @@ function App() {
       <h3>{intrebari[index].intrebare}</h3>
       <div className="optiuni">
       {intrebari[index].variante.map((option, index) => (
-  <button key={index} onClick={() => esteadevarata(option)}>{option}</button> 
+  <button onClick={() => esteadevarata(option)}>{option}</button> 
 ))}
 
       </div>
